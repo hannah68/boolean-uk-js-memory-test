@@ -9,17 +9,17 @@ function randomizerFn(min, max){
 
 const countOfNumber = prompt(`How many numbers do you want to play with? (choose one number) \n (4,5,6)`)
 
-// change the number of numbers displayed 
+// change the number of numbers displayed =================
 let nums = Number(countOfNumber);
 for(let i=0; i<nums ; i++){
-    randomizerFn(1, 5);
+    randomizerFn(1, 100);
 }
 
 
 alert(`Remember these ${nums} number : ${numArr}`)
 
 
-// a function to compare two arrays
+// a function to compare two arrays===================
 function comparator(numArr, num){
     
     setTimeout(() => {
